@@ -1,53 +1,17 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
-import { useToast } from "@/hooks/use-toast"
-import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { submitContactForm } from "@/app/actions/contact"
+import { Button } from "@/components/ui/button"
 
 export default function ContactForm() {
-  const { toast } = useToast()
-  const [isSubmitting, setIsSubmitting] = useState(false)
-
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
-    event.preventDefault()
-    setIsSubmitting(true)
-
-    try {
-      const formData = new FormData(event.currentTarget)
-      const result = await submitContactForm(formData)
-
-      if (result.success) {
-        toast({
-          title: "Message Sent!",
-          description: "We'll get back to you as soon as possible.",
-        })
-        ;(event.target as HTMLFormElement).reset()
-      } else {
-        toast({
-          title: "Error",
-          description: result.message || "Something went wrong. Please try again.",
-          variant: "destructive",
-        })
-      }
-    } catch (error) {
-      toast({
-        title: "Error",
-        description: "Something went wrong. Please try again.",
-        variant: "destructive",
-      })
-    } finally {
-      setIsSubmitting(false)
-    }
-  }
-
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form
+      action="https://formspree.io/f/mgvkqegg"  
+      method="POST"
+      className="space-y-6"
+    >
       <div className="space-y-2">
         <Label htmlFor="name">Full Name</Label>
         <Input id="name" name="name" placeholder="John Doe" required />
@@ -84,8 +48,8 @@ export default function ContactForm() {
         />
       </div>
 
-      <Button type="submit" className="w-full" disabled={isSubmitting}>
-        {isSubmitting ? "Sending..." : "Send Message"}
+      <Button type="submit" className="w-full">
+        Send Message
       </Button>
     </form>
   )
