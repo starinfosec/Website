@@ -28,7 +28,7 @@ export default function Footer() {
             <Instagram className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </Link>
-                <Link href="https://www.linkedin.com/in/star-info-sec-b4159b362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-blue-100 hover:text-white">
+                <Link href="https://www.linkedin.com/company/starinfosec0/" className="text-blue-100 hover:text-white">
                  <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
            </Link>
