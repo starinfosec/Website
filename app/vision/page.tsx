@@ -11,7 +11,7 @@ export default function VisionPage() {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Vision</h1>
-            <p className="text-xl text-blue-100">Creating a safer digital world for businesses of all sizes.</p>
+            <p className="text-xl text-blue-100">Creating a safer digital world for businesses of all sizes with AI-powered cybersecurity.</p>
           </div>
         </div>
       </section>
