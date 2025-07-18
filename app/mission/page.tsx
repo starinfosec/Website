@@ -12,7 +12,7 @@ export default function MissionPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Mission</h1>
             <p className="text-xl text-blue-100">
-              Helping small businesses and startups stay secure with top-level cybersecurity solutions.
+              Helping small businesses and startups stay secure with top-level AI-powered cybersecurity solutions.
             </p>
           </div>
         </div>
