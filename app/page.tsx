@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/head.jpg?height=400&width=600"
+                src="/IMG_6009.gif?height=400&width=600"
                 alt="Cybersecurity Protection"
                 fill
                 className="object-contain"
