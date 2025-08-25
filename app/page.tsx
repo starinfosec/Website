@@ -14,11 +14,10 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Secure Your Business with StarInfoSec
+                Cybersecurity Solutions for Startups & Small Businesses | StarInfoSec
               </h1>
               <p className="text-lg md:text-xl text-blue-100">
-                Identify vulnerabilities before hackers do. Our professional penetration testing services help small
-                businesses and startups protect their digital assets.
+                StarInfoSec helps startups and small businesses stay secure with affordable, expert cybersecurity services. Protect your data, prevent attacks, and grow safely.
               </p>
               <div className="flex flex-wrap gap-4">
   <Button asChild size="lg" className="bg-white text-primary hover:bg-blue-100">
@@ -227,7 +226,7 @@ export default function Home() {
                 <Award className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Expert Team</h3>
-              <p className="text-blue-100">Certified security professionals with years of industry experience.</p>
+              <p className="text-blue-100"></p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
@@ -235,7 +234,7 @@ export default function Home() {
                 <Search className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Thorough Testing</h3>
-              <p className="text-blue-100">Comprehensive methodology that leaves no stone unturned.</p>
+              <p className="text-blue-100"></p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
@@ -243,7 +242,7 @@ export default function Home() {
                 <FileText className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Detailed Reports</h3>
-              <p className="text-blue-100">Clear, actionable reports with prioritized remediation steps.</p>
+              <p className="text-blue-100"></p>
             </div>
 
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center">
@@ -251,7 +250,7 @@ export default function Home() {
                 <Users className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Ongoing Support</h3>
-              <p className="text-blue-100">We're with you every step of the way, even after testing is complete.</p>
+              <p className="text-blue-100"></p>
             </div>
           </div>
         </div>
